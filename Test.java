@@ -1,26 +1,25 @@
-import java.util.Scanner;
+ public class Test {
+//   public static void main(String[] args) {
+//     int result = sum(40);
+//     System.out.println(result);
+//   }
+//   static int sum(int k) {
+//     if (k > 0) {
+//       return k + sum(k - 1);
+//     } else {
+//       return 0;
+//     }
+//   }
 
-class Test {
   public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-
-    System.out.println("Enter name:");
-    
-    // String input
-    String name = input.nextLine();
-    
-    // Numerical input
-    System.out.println("Enter age:");
-    int age = input.nextInt();
-
-    System.out.println("Enter salary:");
-    double salary = input.nextDouble();
-
-    // Output input by user
-    System.out.println("Name: " + name);
-    System.out.println("Age: " + age);
-    System.out.println("Salary: " + salary);
-
-    input.close();
+    int result = sum(5, 10);
+    System.out.println(result);
+  }
+  public static int sum(int start, int end) {
+    if (end > start) {
+      return end + sum(start, end - 1);
+    } else {
+      return end;
+    }
   }
 }

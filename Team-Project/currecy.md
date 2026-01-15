@@ -35,7 +35,7 @@ I’ve kept it **pure Java (OOP, console-based)** — no frameworks.
 
 
 ┌──────────────────┐
-│  ExchangeRate    │
+│  ExchangeRate    │   
 ├──────────────────┤
 │ fromCurrency     │
 │ toCurrency       │
