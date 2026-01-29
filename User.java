@@ -9,6 +9,10 @@ public class User {
         this.country = country;
     }
 
+    static callUser(){
+        System.out.println("Hello  Static");
+    }
+
     void getAllNames(String name, String country){
         System.out.println("Names " +  name + " and " + " Country: " + country);
     }
